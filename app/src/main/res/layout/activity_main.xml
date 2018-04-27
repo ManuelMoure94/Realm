@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rse_vzla_07.preacticarealm.ui.MainActivity">
+
+    <EditText
+        android:id="@+id/EtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/EtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Save" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReadAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Read All" />
+
+        <Button
+            android:id="@+id/btnReadbyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Read by Name" />
+
+        <Button
+            android:id="@+id/btnReadbyId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Read by Id" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdateById"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Update by Id" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDeleteById"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Delete by Id" />
+
+        <Button
+            android:id="@+id/btnDeleteAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Delete All" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cursos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go cursos" />
+</LinearLayout>
